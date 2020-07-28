@@ -82,7 +82,7 @@ function checkWin() {
 
     else if (guesses<=1) {
         console.log("fire");
-        gameIsOver.play();
+//         gameIsOver.play();
         gameOver=true;
         
         document.getElementById("directions").innerHTML="You Lose! Press any key to try again!";
