@@ -80,7 +80,8 @@ function checkWin() {
         gameOver=true;
     }
 
-    else if (guesses<1) {
+    else if (guesses<=1) {
+        console.log("fire");
         gameIsOver.play();
         gameOver=true;
         
